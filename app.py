@@ -12,6 +12,7 @@ app=Flask(__name__)
 
 
 def index():
+
     try:
         raise Exception("We are testing custom exception")
     except Exception as e:
